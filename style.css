@@ -1,0 +1,198 @@
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: #222;
+}
+.mainhead {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	border-bottom: 1px solid #999;
+	font-size: .8em;
+	font-weight: bold;
+	text-transform: uppercase;
+	width: 96%;
+	margin: auto;
+	background: #F9F9F9;
+}
+.mainhead img {
+	width: 185px;
+	height: 26px;
+
+}
+.mainhead li {
+	float: left;
+}
+.mainhead h2 {
+	width: 185px;
+	margin: 10px auto;
+}
+.first {
+	position: absolute;
+	margin: 0;
+	left: 15px;
+	top : 15px;
+}
+.first li {
+	margin: 0 25px;
+}
+.first a {
+	padding-left: 25px;
+}
+.special {
+	padding: 5px;
+	border: 1px solid #999;
+	box-shadow: 0 0 5px #999;
+	border-radius: 3px;
+	background: #FFF url('images/drop.png') no-repeat left;
+	background-size: 20px 20px;
+	position: relative;
+	left: -50px;
+
+}
+.first li:nth-child(2) {
+	background: #FFF url('images/nytimeslogo.jpg') no-repeat left;
+	background-size: 20px 20px;
+}
+.first li:nth-child(3) {
+	background: #FFF url('images/search.png') no-repeat left;
+	background-size: 20px 20px;
+}
+.second {
+	position: absolute;
+	right: 15px;
+	top : 15px;
+	
+}
+.second li {
+	margin-right: 0;
+	padding: 0px;
+}
+.sublog {
+	color: #FFF;
+	font-size: .8em;
+	background: #398DC0;
+	margin: 0 10px;
+	padding: 8px;
+	border-radius: 3px;
+
+}
+.second img {
+	width: 15px;
+	height: 15px;
+}
+/*end of header*/
+.otherstory {
+	clear: both;
+	margin: 50px auto;
+	width: 88%;
+	border-bottom: 1px solid #888;
+
+}
+.otherstory h2 {
+	font-size: .5em;
+	display: inline;
+}
+.otherstory img {
+	width: 65px;
+	height: 65px;
+	margin-right: 5px;
+	float: left;
+}
+.otherstory article {
+	display: inline-table;
+	width: 200px;
+	margin: 10px;
+	padding: 5px 5px 5px 0;
+	border-right: 1px solid #888;
+}
+#wrapper {
+	width: 88%;
+	border-top:2px solid #111; 
+	margin: auto;
+	padding: 10px;
+}
+.bittop a {
+	float: left;
+}
+.bittop span {
+	float: right;
+}
+.main {
+	clear: both;
+}
+.main h1 {
+	font-style: italic;
+}
+.main a {
+	text-decoration: underline;
+}
+.main figcaption {
+	font-size: .8em;
+	width: 500px;
+}
+.credit {
+	color: #888;
+	display: block;
+}
+.desc {
+	width: 88%;
+	margin: 30px auto;
+	border-bottom:1px solid #888;
+	overflow: hidden;
+}
+.social {
+	float: left;
+	width: 90px;
+	margin-top: 20px;
+}
+.social li {
+	margin: 15px 0;
+}
+.par {
+	float: left;
+	width: 600px;
+}
+.par p {
+	margin: 20px;
+}
+.theory {
+	width: 88%;
+	margin: auto;
+}
+.theory img {
+	width: 100px;
+	height: 80px;
+}
+#inflation {
+	position: absolute;
+	width: 950px;
+	height: 590px;
+	
+}
+.theory div p {
+	width: 228px;
+	float: left;
+	margin: 5px;
+	position: relative;
+	font-size: 13px;
+	left: 15px;
+	top: 150px;
+}
+.theory .next p {
+	width: 228px;
+	float: left;
+	margin: 5px;
+	position: relative;
+	font-size: 14px;
+	left: 15px;
+	top: 300px;
+}
+
+
+
